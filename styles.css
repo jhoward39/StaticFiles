@@ -1,11 +1,13 @@
 /* static/styles.css */
-body {
-    font-family: 'Helvetica', sans-serif;
-    background-color: #f0f0f0;
-}
-h1 {
-    color: darkred;
-}
-li {
-    color: darkblue;
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #F7F6E4;
+    position: fixed;
+    width:100vw;
+    height: 10vh;
+    top:0;
+    flex-wrap: nowrap;
+    overflow: visible;
 }
