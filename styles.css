@@ -5,6 +5,11 @@
   font-weight: 5000;
 }
 
+body{
+  margin:0;
+  background-color: #F7F6E4;
+}
+
 header{
     display: flex;
     justify-content: space-between;
