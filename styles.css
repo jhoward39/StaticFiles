@@ -1,4 +1,10 @@
 /* static/styles.css */
+@font-face {
+  font-family: 'NothingYouCouldDo';
+  src: "https://jhoward39.github.io/StaticFiles/NothingYouCouldDo-Regular.ttf" format('truetype-variations');
+  font-weight: 5000;
+}
+
 header{
     display: flex;
     justify-content: space-between;
@@ -10,4 +16,34 @@ header{
     top:0;
     flex-wrap: nowrap;
     overflow: visible;
+}
+
+.header-title{
+    font-family: 'NothingYouCouldDo', 'Fallback Font', serif;
+    font-size: 50px;
+    color: #426B1F;
+    font-weight: 500;
+    margin-left: 3vw;
+    margin-top: 6vh;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+nav ul li {
+    margin-right: 3vw;
+    cursor: pointer;
+    white-space: nowrap;
+    /* font-family: 'Newsreader', 'Fallback Font', serif;
+    font-weight: 400; */
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
